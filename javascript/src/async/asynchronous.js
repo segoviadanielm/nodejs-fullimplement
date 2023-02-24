@@ -2,8 +2,6 @@
 
 "use strict";
 
-
-
 //async functions works like js
 
 console.log(`\n ======= PROMISE FUNCTION ======== \n`);
@@ -64,5 +62,3 @@ res = await Promise.any([rejectedFnc(), promise2, promise3]);
 console.log(res);
 
 console.log(`\n =============== \n`);
-
-//TODO ASYNC HOOKS NODE

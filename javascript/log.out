@@ -1,0 +1,48 @@
+yeahh
+init 11 PROMISE 10 Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 11,
+  [Symbol(trigger_async_id_symbol)]: 10
+}
+before init callback
+yeahh
+yeahh
+after init callback
+before init callback
+yeahh
+after init callback
+before init callback
+yeahh
+after init callback
+yeahh
+yeahh
+yeahh
+yeahh
+before init callback
+after init callback
+9 destroyed
+6 destroyed
+yeahh
+init 11 PROMISE 10 Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 11,
+  [Symbol(trigger_async_id_symbol)]: 10
+}
+before init callback
+yeahh
+yeahh
+after init callback
+before init callback
+yeahh
+after init callback
+before init callback
+yeahh
+after init callback
+yeahh
+yeahh
+yeahh
+yeahh
+before init callback
+after init callback
+9 destroyed
+6 destroyed
