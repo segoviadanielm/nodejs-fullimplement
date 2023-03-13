@@ -1,5 +1,39 @@
 # JAVASCRIPT FUNDAMENTALS
 
+### Functions 
+
+Functions are first-class objects (are threated like any other variable)
+```js
+function hello(name) { //name is the parameter
+    console.log(`Hello ${name}!`)
+}
+
+hello(`daniel`); //daniel is the argument
+
+// Hello Daniel
+```
+
+arguments are always passed by sharing, if the object's properties are mutated, the change will impact the outside of the function
+
+```js
+function updateBrand(obj) {
+  // Mutating the object is visible outside the function
+  obj.brand = "Toyota";
+  // Try to reassign the parameter, but this won't affect
+  // the variable's value outside the function
+  obj = null;
+}
+```
+### Arrow function expressions
+An arrow function expression is a compact alternative to a traditional function expression, with some semantic differences and deliberate limitations in usage:
+
+* Arrow functions don't have their own bindings to this, arguments, or super, and should not be used as methods.
+* Arrow functions cannot be used as constructors. Calling them with new throws a TypeError. They also don't have access to the new.target keyword.
+* Arrow functions cannot use yield within their body and cannot be created as generator functions.
+
+---
+
+## Event loop
 Javascript has a runtime model based on *event loop* - collecting and processing events, and executing queued sub-tasks.
 
 ![javascript eventloop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop/the_javascript_runtime_environment_example.svg)
